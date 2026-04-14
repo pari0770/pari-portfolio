@@ -23,11 +23,11 @@ const navLinkStyle: React.CSSProperties = {
   fontFamily: 'inherit',
 };
 
-const titlesByYear: Record<number, string> = {
-  2026: 'Sr Product Design Manager, Enterprise Copilot',
-  2022: 'Lead Product Designer, Meta',
-  2021: 'Product Designer II, Teams',
-  2020: 'Product Designer, Edge',
+const titlesByYear: Record<string, string> = {
+  '2026': 'Sr Product Design Manager, Enterprise Copilot',
+  '2022': 'Lead Product Designer, Meta',
+  '2021': 'Product Designer II, Teams',
+  '2020': 'Product Designer, Edge',
 };
 
 export default function Header() {

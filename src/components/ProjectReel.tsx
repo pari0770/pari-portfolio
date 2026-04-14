@@ -13,7 +13,7 @@ export default function ProjectReel() {
   const { setActiveIndex } = useActiveProject();
 
   useEffect(() => {
-    const el = reelRef.current;
+    const el = reelRef.current as HTMLDivElement;
     if (!el) return;
 
     let isDown = false;
@@ -33,6 +33,7 @@ export default function ProjectReel() {
 
     /** Update header year based on which section is most visible — driven by scroll position */
     function updateActiveIndex() {
+      if (!el) return;
       const sw = sectionWidth();
       // Use viewport centre to decide which section is "active"
       const viewCentre = el.scrollLeft + el.clientWidth / 2;
