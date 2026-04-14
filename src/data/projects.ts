@@ -30,7 +30,6 @@ export const projects: Project[] = [
       description:
         "Over the past 2 years, I've shepherded the app from its inception to 10 million weekly active users. Currently leading a team of 6 designers I've hired, mentored & coached on crafting, coding & shipping every pixel for how the Copilot app looks, feels & integrates into your windows shell to bring the best of local agentic capabilities.\n\nMy team also owns and designs for the macOS Copilot app.",
       videos: [
-        '/assets/copilot/01.mp4',
         '/assets/copilot/02.mp4',
         '/assets/copilot/03.mp4',
       ],
