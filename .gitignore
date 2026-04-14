@@ -39,5 +39,4 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-public/assets/copilot/*.mp4
-public/assets/*-case-study.pdf
+public/assets/copilot/01.mp4
